@@ -45,4 +45,4 @@ function generate(characterName, needFirst) {
   return ret;
 }
 
-console.log(generate(undefined, "Dragon"));
+module.exports = generate;
